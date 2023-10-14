@@ -23,20 +23,22 @@ button {
 }
 
 .main-title {
-	color: #ffffff;
 	font-size: 56px;
 	font-weight: bold;
 	line-height: 1.07;
-	background-color: #2e2f42;
 	text-align: center;
+	letter-spacing: 0.02em;
+	background-color: #2e2f42;
+	color: #ffffff;
 }
 
 .main-button {
-	color: #ffffff;
-	background-color: #4d5aE5;
 	font-size: 16px;
+	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
+	color: #ffffff;
+	background-color: #4d5aE5;
 	;
 }
 
@@ -44,6 +46,17 @@ button {
 .main-button:focus {
 	background-color: #404bbf;
 }
+
+
+.strategy {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -55,25 +68,25 @@ button {
 }
 
 .logo {
-	color: #2E2F42;
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 1.16;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	color: #2E2F42;
 }
 
 .logo-span {
-	color: #4D5AE5;
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 1.16;
+	line-height:  1.16 ;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	color: #f4f4fd;
 }
 
 .nav-link {
@@ -89,7 +102,7 @@ button {
 	color: #404bbf;
 }
 
-.address {
+.address-class {
 	color: #434455;
 	font-size: 16px;
 	font-style: normal;
@@ -105,11 +118,20 @@ button {
 	font-weight: 700;
 	line-height: 1.11;
 	text-transform: capitalize;
+	letter-spacing: 0.02em;
+	color:#2e2f42 ;
 }
-
+.section-person {
+	background-color: #f4f4fd;
+}
+.section-li{
+	background-color:#FFFFFF ;
+}
 .person-title {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 500;
+	line-height: 1.2
+	
 }
 
 .product-title {
@@ -118,6 +140,8 @@ button {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
 }
 
 .menu {
@@ -132,20 +156,17 @@ button {
 }
 
 .footer-link {
-	color: #F4F4FD;
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 1.16;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	color: #4d5ae5;
 }
 
 .footer-desc {
 	color: #f4f4fd;
 }
 
-.section-person {
-	background-color: #f4f4fd;
-}
